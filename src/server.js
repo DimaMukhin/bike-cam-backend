@@ -31,3 +31,8 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 
 app.listen(port, () => console.log(`API server started on ${port}`));
+
+// time to colission
+// type of colllision
+// speed?
+// description of collision

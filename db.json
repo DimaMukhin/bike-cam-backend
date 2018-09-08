@@ -1,0 +1,63 @@
+{
+    "trips": [
+        {
+            "id": 1,
+            "cyclistId": 1,
+            "startLocation": {
+                "longitude": "TODO",
+                "latitude": "TODO"
+            },
+            "endLocation": {
+                "longitude": "TODO",
+                "latitude": "TODO"
+            },
+            "startTime": "2018-09-08T21:05:48+00:00",
+            "endTime": "2018-09-09T21:05:48+00:00",
+            "bikeType": "rental",
+            "length": 24.3,
+            "route": [
+                {
+                    "longitude": "TODO",
+                    "latitude": "TODO"
+                },
+                {
+                    "longitude": "TODO",
+                    "latitude": "TODO"
+                },
+                {
+                    "longitude": "TODO",
+                    "latitude": "TODO"
+                },
+                {
+                    "longitude": "TODO",
+                    "latitude": "TODO"
+                },
+                {
+                    "longitude": "TODO",
+                    "latitude": "TODO"
+                },
+                {
+                    "longitude": "TODO",
+                    "latitude": "TODO"
+                }
+            ],
+            "collision": {
+                "type": ["vehicle"],
+                "timeToCollision":  1256,
+                "time": "2018-09-09T21:05:48+00:00",
+                "footageURL": "http://fakevideos.com/watch/48923nfje" 
+            },
+            "badBehaviourIds": [1, 3],
+            "goodBehaviourIds": [2]
+        }
+    ],
+    "cyclists": [
+        {
+            "id": 1,
+            "age": 25,
+            "gender": "male",
+            "tripIds": [1],
+            "score": 492
+        }
+    ]
+}
