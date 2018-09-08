@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "node src/server.js",
+        "start": "concurrently \"npm run db\" \"node src/server.js\"",
+        "start:dev": "concurrently \"npm run db\" \"npm run dev\"",
         "dev": "nodemon src/server.js",
         "db": "json-server --watch db.json --port 3004",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +14,8 @@
     "license": "ISC",
     "dependencies": {
         "@koa/cors": "^2.2.2",
+        "axios": "^0.18.0",
+        "concurrently": "^4.0.1",
         "json-server": "^0.14.0",
         "koa": "^2.5.2",
         "koa-bodyparser": "^4.2.1",
