@@ -4,12 +4,12 @@
             "id": 1,
             "cyclistId": 1,
             "startLocation": {
-                "longitude": "TODO",
-                "latitude": "TODO"
+                "longitude": "-48.00861",
+                "latitude": "132.58860"
             },
             "endLocation": {
-                "longitude": "TODO",
-                "latitude": "TODO"
+                "longitude": "-60.94653",
+                "latitude": "157.90930"
             },
             "startTime": "2018-09-08T21:05:48+00:00",
             "endTime": "2018-09-09T21:05:48+00:00",
@@ -17,38 +17,45 @@
             "length": 24.3,
             "route": [
                 {
-                    "longitude": "TODO",
-                    "latitude": "TODO"
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
                 },
                 {
-                    "longitude": "TODO",
-                    "latitude": "TODO"
+                    "longitude": "-48.03861",
+                    "latitude": "122.58860"
                 },
                 {
-                    "longitude": "TODO",
-                    "latitude": "TODO"
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
                 },
                 {
-                    "longitude": "TODO",
-                    "latitude": "TODO"
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
                 },
                 {
-                    "longitude": "TODO",
-                    "latitude": "TODO"
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
                 },
                 {
-                    "longitude": "TODO",
-                    "latitude": "TODO"
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
                 }
             ],
             "collision": {
-                "type": ["vehicle"],
-                "timeToCollision":  1256,
+                "type": [
+                    "vehicle"
+                ],
+                "timeToCollision": 1256,
                 "time": "2018-09-09T21:05:48+00:00",
-                "footageURL": "http://fakevideos.com/watch/48923nfje" 
+                "footageURL": "http://fakevideos.com/watch/48923nfje"
             },
-            "badBehaviourIds": [1, 3],
-            "goodBehaviourIds": [2]
+            "badBehaviourIds": [
+                1,
+                3
+            ],
+            "goodBehaviourIds": [
+                2
+            ]
         }
     ],
     "cyclists": [
@@ -56,8 +63,17 @@
             "id": 1,
             "age": 25,
             "gender": "male",
-            "tripIds": [1],
+            "tripIds": [
+                1
+            ],
             "score": 492
+        },
+        {
+            "id": 2,
+            "age": 22,
+            "gender": "female",
+            "tripIds": [],
+            "score": 100
         }
     ]
 }

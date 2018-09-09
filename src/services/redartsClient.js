@@ -30,11 +30,21 @@ async function createNewTrip(trip) {
     axios.post(`${BASE_URL}/trips`, trip);
 }
 
+async function updateTrip(tripId, tripChanges) {
+    axios.patch(`${BASE_URL}/trips/${tripId}`, tripChanges);
+}
+
+async function updateCyclist(cyclistId, cyclistChanges) {
+    axios.patch(`${BASE_URL}/cyclists/${cyclistId}`, cyclistChanges);
+}
+
 module.exports = {
     getAllCyclists,
     getCyclistById,
     getAllTrips,
     getTripById,
     createNewCyclist,
-    createNewTrip
+    createNewTrip,
+    updateTrip,
+    updateCyclist
 }
