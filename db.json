@@ -25,6 +25,210 @@
                     "latitude": "122.58860"
                 },
                 {
+                    "longitude": "-48.03861",
+                    "latitude": "132.58160"
+                },
+                {
+                    "longitude": "-48.30861",
+                    "latitude": "132.18860"
+                },
+                {
+                    "longitude": "-58.00861",
+                    "latitude": "152.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                }
+            ],
+            "collision": {
+                "type": [
+                    "vehicle"
+                ],
+                "timeToCollision": 1256,
+                "time": "2018-09-09T21:05:48+00:00",
+                "footageURL": "http://fakevideos.com/watch/48923nfje"
+            },
+            "badBehaviourIds": [
+                1,
+                3
+            ],
+            "goodBehaviourIds": [
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "cyclistId": 1,
+            "startLocation": {
+                "longitude": "-48.00861",
+                "latitude": "132.58860"
+            },
+            "endLocation": {
+                "longitude": "-60.94653",
+                "latitude": "157.90930"
+            },
+            "startTime": "2018-09-08T21:05:48+00:00",
+            "endTime": "2018-09-09T21:05:48+00:00",
+            "bikeType": "personal",
+            "length": 103.3,
+            "route": [
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.03861",
+                    "latitude": "122.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                }
+            ],
+            "badBehaviourIds": [],
+            "goodBehaviourIds": [ 1, 2 ]
+        },
+        {
+            "id": 3,
+            "cyclistId": 2,
+            "startLocation": {
+                "longitude": "-48.00861",
+                "latitude": "132.58860"
+            },
+            "endLocation": {
+                "longitude": "-60.94653",
+                "latitude": "157.90930"
+            },
+            "startTime": "2018-09-08T21:05:48+00:00",
+            "endTime": "2018-09-09T21:05:48+00:00",
+            "bikeType": "rental",
+            "length": 99.0,
+            "route": [
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.03861",
+                    "latitude": "122.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                }
+            ],
+            "collision": {
+                "type": [
+                    "vehicle"
+                ],
+                "timeToCollision": 95,
+                "time": "2018-09-09T21:05:48+00:00",
+                "footageURL": "http://fakevideos.com/watch/48923nfje"
+            },
+            "badBehaviourIds": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "goodBehaviourIds": []
+        },
+        {
+            "id": 4,
+            "cyclistId": 2,
+            "startLocation": {
+                "longitude": "-48.00861",
+                "latitude": "132.58860"
+            },
+            "endLocation": {
+                "longitude": "-60.94653",
+                "latitude": "157.90930"
+            },
+            "startTime": "2018-09-08T21:05:48+00:00",
+            "endTime": "2018-09-09T21:05:48+00:00",
+            "bikeType": "rental",
+            "length": 24.3,
+            "route": [
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.03861",
+                    "latitude": "122.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                }
+            ],
+            "badBehaviourIds": [],
+            "goodBehaviourIds": [
+                2
+            ]
+        },
+        {
+            "id": 5,
+            "cyclistId": 3,
+            "startLocation": {
+                "longitude": "-48.00861",
+                "latitude": "132.58860"
+            },
+            "endLocation": {
+                "longitude": "-60.94653",
+                "latitude": "157.90930"
+            },
+            "startTime": "2018-09-08T21:05:48+00:00",
+            "endTime": "2018-09-09T21:05:48+00:00",
+            "bikeType": "rental",
+            "length": 24.3,
+            "route": [
+                {
+                    "longitude": "-48.00861",
+                    "latitude": "132.58860"
+                },
+                {
+                    "longitude": "-48.03861",
+                    "latitude": "122.58860"
+                },
+                {
                     "longitude": "-48.00861",
                     "latitude": "132.58860"
                 },
@@ -66,7 +270,7 @@
             "tripIds": [
                 1
             ],
-            "score": 492
+            "score": 56
         },
         {
             "id": 2,
@@ -74,6 +278,13 @@
             "gender": "female",
             "tripIds": [],
             "score": 100
+        },
+        {
+            "id": 3,
+            "age": 18,
+            "gender": "female",
+            "tripIds": [],
+            "score": 92
         }
     ]
 }
